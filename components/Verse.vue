@@ -8,7 +8,7 @@
           đáng nhớ."
         </p>
       </blockquote>
-      <figcaption class="mt-8 text-center text-sm font-bold text-gray-200 dark:text-slate-600">Hùng & Trang
+      <figcaption class="mt-8 text-center text-sm font-bold text-gray-200 dark:text-slate-600">Vũ & Linh
       </figcaption>
     </figure>
   </section>

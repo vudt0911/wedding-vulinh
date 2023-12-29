@@ -5,9 +5,9 @@
 		</div>
 		<div class="space-y-3 pt-3 md:pt-5">
 			<hr class="border-slate-600" />
-			<span class="block text-sm font-bold uppercase tracking-[0.3em] md:text-base">Ha Thu Trang</span>
-			<span class="block text-sm font-bold uppercase tracking-[0.3em] md:text-base">0399-482-932</span>
-			<button id="btnGift" class="flex w-full items-center justify-center rounded bg-blue-800 px-4 py-1.5 text-sm text-white md:text-base" type="button" @click="copy('0399482932')" title="Copy số tài khoản">
+			<span class="block text-sm font-bold uppercase tracking-[0.3em] md:text-base">Hà Bảo Linh</span>
+			<span class="block text-sm font-bold uppercase tracking-[0.3em] md:text-base">0301-0003-72155</span>
+			<button id="btnGift" class="flex w-full items-center justify-center rounded bg-blue-800 px-4 py-1.5 text-sm text-white md:text-base" type="button" @click="copy('0301000372155')" title="Copy số tài khoản">
 				<FontAwesomeIcon :icon="['fas', 'copy']" />
 				<span id="btnGiftText" class="flex-1">Copy</span>
 			</button>

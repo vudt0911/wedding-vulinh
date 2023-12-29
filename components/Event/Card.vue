@@ -4,7 +4,7 @@
 		<h2 class="mt-4 font-body text-3xl text-gray-200 dark:text-slate-600 md:mt-8 md:text-4xl lg:text-5xl">{{ title }}</h2>
 		<div class="py-4 md:py-8">
 			<h3 class="font-serif text-xl text-yellow-300/90 dark:text-yellow-800 md:text-2xl lg:text-3xl">Chủ Nhật</h3>
-			<h3 class="font-serif text-xl text-yellow-300/90 dark:text-yellow-800 md:text-2xl lg:text-3xl">28 January 2024</h3>
+			<h3 class="font-serif text-xl text-yellow-300/90 dark:text-yellow-800 md:text-2xl lg:text-3xl">16 November 2024</h3>
 		</div>
 		<span class="font-body text-lg text-gray-200 dark:text-slate-600 md:text-xl">{{ time }}</span>
 		<div class="flex items-center justify-center gap-x-3 py-10">

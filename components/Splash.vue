@@ -6,7 +6,7 @@
     <div class="flex h-full w-full flex-col items-center justify-center gap-y-16">
       <div class="space-y-6 text-center md:space-y-14 lg:space-y-10">
         <h1 class="font-body text-xl text-gray-100 md:text-5xl">Thiệp Cưới</h1>
-        <h2 class="font-body text-4xl text-yellow-300/90 md:text-7xl">Hùng & Trang</h2>
+        <h2 class="font-body text-4xl text-yellow-300/90 md:text-7xl">Vũ & Linh</h2>
         <span class="block font-body text-gray-100 md:text-2xl">Đến Nhé !!!</span>
         <p class="font-body text-xl font-bold text-gray-100 md:text-4xl">{{ route.query.name }}</p>
       </div>

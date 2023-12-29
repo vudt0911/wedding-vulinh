@@ -83,7 +83,7 @@
             Thật vinh dự và hạnh phúc cho chúng tôi nếu {{ route.query.name }} và người thương sẵn lòng đến tham dự và chúc phúc cho cuộc hôn nhân của chúng tôi.
 					</p>
 					<p class="text-sm text-slate-600 dark:text-gray-200 md:text-base" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Vì những lời cầu nguyện và phước lành của bạn, chúng tôi cảm ơn bạn.</p>
-					<h3 class="font-body text-3xl text-yellow-800 dark:text-yellow-300/90" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">Hùng & Trang</h3>
+					<h3 class="font-body text-3xl text-yellow-800 dark:text-yellow-300/90" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">Vũ & Linh</h3>
 				</div>
 			</div>
 		</div>
