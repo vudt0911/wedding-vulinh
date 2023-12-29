@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				body: ['Parisienne'],
+				body: ['cursive','Roboto', 'Helvetica', 'Arial', 'sans-serif'],
 			},
 		},
 	},

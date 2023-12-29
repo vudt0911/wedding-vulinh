@@ -5,7 +5,7 @@
     <div class="absolute inset-0 -z-10 bg-black/40"></div>
     <div class="flex h-full w-full flex-col items-center justify-center gap-y-16">
       <div class="space-y-6 text-center md:space-y-14 lg:space-y-10">
-        <h1 class="font-body text-xl text-gray-100 md:text-5xl">Thiệp cưới</h1>
+        <h1 class="font-body text-xl text-gray-100 md:text-5xl">Thiệp Cưới</h1>
         <h2 class="font-body text-4xl text-yellow-300/90 md:text-7xl">Hùng & Trang</h2>
         <span class="block font-body text-gray-100 md:text-2xl">Đến Nhé !!!</span>
         <p class="font-body text-xl font-bold text-gray-100 md:text-4xl">{{ route.query.name }}</p>
@@ -17,7 +17,7 @@
           type="button"
           @click="loadPage"
       >
-        Mở lời mời
+        Mở Lời Mời
       </button>
       <p class="absolute bottom-5 max-w-xs text-center text-xs font-semibold text-gray-100 md:max-w-full">
         Copyright &copy; 2024 <a class="font-bold hover:underline" href="https://github.com/vudt0911" rel="noopener noreferrer"
@@ -37,7 +37,6 @@ const isDisabled = ref(true);
 
 onMounted(() => {
   isDisabled.value = false;
-  console.log('route', route)
 });
 
 const loadPage = async () => {

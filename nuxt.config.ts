@@ -42,7 +42,7 @@ export default defineNuxtConfig({
 				{ property: 'twitter:title', content: process.env.APP_NAME },
 				{ property: 'twitter:image', content: `${process.env.APP_URL}/images/wish.jpg` },
 			],
-			title: process.env.APP_NAME || "NO title",
+			title: process.env.APP_NAME || "Thiệp Mời Cưới Hùng & Trang",
 		},
 	},
 	build: {

@@ -7,7 +7,8 @@
 			</div>
 			<div class="mx-auto w-3/4 md:w-2/3" data-aos="zoom-in" data-aos-duration="750">
 				<h3 class="mt-5 text-sm font-semibold text-slate-600 dark:text-gray-100 md:text-lg">
-          Không làm giảm đi sự tôn trọng của chúng tôi, chúng tôi mời {{ recipient }} đến dự <span class="font-bold">Tiệc Cưới</span>  của con trai và con gái chúng tôi, theo ý Chúa, sẽ được tổ chức vào ngày
+<!--          Không làm giảm đi sự tôn trọng của chúng tôi, chúng tôi mời {{ recipient }} đến dự <span class="font-bold">Tiệc Cưới</span>  của con trai và con gái chúng tôi, sẽ được tổ chức vào ngày-->
+          Không làm giảm đi sự tôn trọng của chúng tôi, chúng tôi mời {{ route.query.name }} đến dự <span class="font-bold">Tiệc Cưới</span>  của con trai và con gái chúng tôi, sẽ được tổ chức vào ngày
         </h3>
 			</div>
 		</div>
@@ -24,4 +25,6 @@
 	import type { LocationQueryValue } from 'vue-router';
 
 	const { recipient } = defineProps<{ recipient: string | LocationQueryValue[] }>();
+
+  const route = useRoute()
 </script>

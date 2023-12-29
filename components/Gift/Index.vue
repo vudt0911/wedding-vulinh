@@ -2,7 +2,7 @@
 	<section class="bg-gray-200 dark:bg-slate-800" id="gift">
 		<div class="mx-auto max-w-xs py-16 md:max-w-2xl lg:max-w-4xl">
 			<div class="rounded-2xl bg-stone-400 p-10 dark:bg-stone-200">
-				<h2 class="text-center font-body text-4xl text-yellow-300/90 dark:text-yellow-800 md:text-5xl">Quà cưới</h2>
+				<h2 class="text-center font-body text-4xl text-yellow-300/90 dark:text-yellow-800 md:text-5xl">Quà Cưới</h2>
 				<div class="mx-auto w-2/4 py-4">
 					<hr class="border-gray-200 dark:border-slate-600" />
 				</div>

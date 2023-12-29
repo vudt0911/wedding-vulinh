@@ -3,7 +3,7 @@
 		<div class="pt-12 md:pt-20">
 			<h2 class="font-body text-5xl text-gray-200 dark:text-slate-600 md:text-7xl" data-aos="zoom-in" data-aos-duration="750">Ảnh Kỷ Niệm</h2>
 			<div class="mx-auto w-2/3" data-aos="zoom-in" data-aos-duration="750">
-				<h3 class="mt-5 font-serif text-sm italic text-gray-200 dark:text-slate-600 md:text-base">Chuyện tình nào cũng đẹp nhưng chuyện tình của chúng tôi là chuyện tôi yêu thích nhất.</h3>
+				<h3 class="mt-5 font-body text-sm italic text-gray-200 dark:text-slate-600 md:text-base">Chuyện tình nào cũng đẹp nhưng chuyện tình của chúng tôi là chuyện tôi yêu thích nhất.</h3>
 			</div>
 			<div class="mx-auto w-2/4 py-6 md:py-8">
 				<hr class="border-gray-200 dark:border-slate-600" />

@@ -2,7 +2,7 @@
 	<section class="bg-gray-200 dark:bg-slate-800" id="wish">
 		<div class="mx-auto max-w-xs py-12 md:max-w-2xl md:py-16 lg:max-w-4xl">
 			<h2 class="text-center font-serif text-2xl uppercase tracking-widest text-slate-600 dark:text-gray-100 md:text-4xl" data-aos="zoom-in" data-aos-duration="750">Tham dự lễ thành hôn</h2>
-			<h3 class="mt-4 mb-10 text-center font-serif text-sm italic text-slate-600 dark:text-gray-100 md:text-base" data-aos="zoom-in" data-aos-duration="750">Hãy gửi những lời chúc tốt đẹp nhất tới cô dâu chú rể.</h3>
+			<h3 class="mt-4 mb-10 text-center font-body text-sm italic text-slate-600 dark:text-gray-100 md:text-base" data-aos="zoom-in" data-aos-duration="750">Hãy gửi những lời chúc tốt đẹp nhất tới cô dâu chú rể.</h3>
 			<div class="rounded-2xl bg-stone-400 p-8 shadow dark:bg-gray-200">
 				<div class="space-y-6">
 <!--					<span class="block text-center font-semibold text-gray-200 dark:text-slate-600">{{ totalWish }} Lời chúc</span>-->
@@ -80,10 +80,10 @@
 				<div class="space-y-8 text-center">
 					<p class="text-sm text-slate-600 dark:text-gray-200 md:text-base" data-aos="fade-down" data-aos-duration="1000">
 <!--            Thật vinh dự và hạnh phúc cho chúng tôi nếu {{ recipient }} sẵn lòng đến tham dự và chúc phúc cho cuộc hôn nhân của chúng tôi.-->
-            Thật vinh dự và hạnh phúc cho chúng tôi nếu bạn và người thương sẵn lòng đến tham dự và chúc phúc cho cuộc hôn nhân của chúng tôi.
+            Thật vinh dự và hạnh phúc cho chúng tôi nếu {{ route.query.name }} và người thương sẵn lòng đến tham dự và chúc phúc cho cuộc hôn nhân của chúng tôi.
 					</p>
 					<p class="text-sm text-slate-600 dark:text-gray-200 md:text-base" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Vì những lời cầu nguyện và phước lành của bạn, chúng tôi cảm ơn bạn.</p>
-					<h3 class="font-serif text-3xl text-yellow-800 dark:text-yellow-300/90" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">Hùng & Trang</h3>
+					<h3 class="font-body text-3xl text-yellow-800 dark:text-yellow-300/90" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">Hùng & Trang</h3>
 				</div>
 			</div>
 		</div>
@@ -95,6 +95,7 @@
 	import type { LocationQueryValue } from 'vue-router';
 
 	const { recipient } = defineProps<{ recipient: string | LocationQueryValue[] }>();
+  const route = useRoute()
 	const loading = ref(false);
 	const btnLoading = ref(false);
 	const showAlert = ref(false);
@@ -110,33 +111,33 @@
 	const {
 		public: { pusher },
 	} = useRuntimeConfig();
-	const pusherInstance = new Pusher(pusher.key, {
-		cluster: pusher.cluster,
-		forceTLS: true,
-	});
+	// const pusherInstance = new Pusher(pusher.key, {
+	// 	cluster: pusher.cluster,
+	// 	forceTLS: true,
+	// });
 
-	onMounted(async () => {
-		const channel = pusherInstance.subscribe('wish-channel');
-
-		channel.bind('wish-event', (data: Wish) => {
-			wishes.value.push(data);
-		});
-
-		await getMessages();
-	});
+	// onMounted(async () => {
+	// 	const channel = pusherInstance.subscribe('wish-channel');
+  //
+	// 	channel.bind('wish-event', (data: Wish) => {
+	// 		wishes.value.push(data);
+	// 	});
+  //
+	// 	await getMessages();
+	// });
 
 	const getMessages = async () => {
 		loading.value = true;
 
 		try {
-			const { data } = await useFetch<PrismaWish>('/api/wish');
-
-			if (data.value) {
-				wishes.value = data.value.wishes;
-				totalWish.value = data.value.totalWish;
-				totalAttend.value = data.value.totalAttend;
-				totalMiss.value = data.value.totalMiss;
-			}
+			// const { data } = await useFetch<PrismaWish>('/api/wish');
+      //
+			// if (data.value) {
+			// 	wishes.value = data.value.wishes;
+			// 	totalWish.value = data.value.totalWish;
+			// 	totalAttend.value = data.value.totalAttend;
+			// 	totalMiss.value = data.value.totalMiss;
+			// }
 		} catch (error) {
 			console.error(error);
 		} finally {
@@ -148,14 +149,14 @@
 		btnLoading.value = true;
 
 		try {
-			await useFetch<Wish>('/api/wish', {
-				method: 'POST',
-				body: {
-					name: name.value,
-					message: message.value,
-					attendance: attendance.value,
-				},
-			});
+			// await useFetch<Wish>('/api/wish', {
+			// 	method: 'POST',
+			// 	body: {
+			// 		name: name.value,
+			// 		message: message.value,
+			// 		attendance: attendance.value,
+			// 	},
+			// });
 
 			showAlert.value = true;
 
