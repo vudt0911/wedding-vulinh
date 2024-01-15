@@ -11,11 +11,11 @@
 						<div class="w-32 rounded bg-gray-200 py-2 px-4 text-center text-slate-600 dark:bg-slate-800 dark:text-gray-100">
 <!--							<span class="block text-lg font-bold">{{ totalAttend }}</span>-->
 							<span class="block text-lg font-bold">369</span>
-							<span class="block text-xs font-semibold">Tham Gia</span>
+							<span class="block text-xs font-semibold">Tham Gia </span>
 						</div>
 						<div class="w-32 rounded bg-gray-200 py-2 px-4 text-center text-slate-600 dark:bg-slate-800 dark:text-gray-100">
 							<span class="block text-lg font-bold">{{ totalMiss }}</span>
-							<span class="block text-xs font-semibold">Không tham gia</span>
+							<span class="block text-xs font-semibold">Bận mất rồi !</span>
 						</div>
 					</div>
 					<hr class="h-0.5 bg-slate-800" />

@@ -6,7 +6,7 @@
 			<h4 class="max-w-xs font-bold text-slate-600 dark:text-gray-100 sm:max-w-sm lg:text-xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
 				<slot name="family" />
 			</h4>
-			<div class="flex w-full items-center justify-center gap-x-10">
+			<div class="flex w-full items-center justify-center gap-x-10 mb-[1rem]">
 				<BridegroomSocial :url="instagramURL" title="FaceBook" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="450">
 					<slot name="social" icon="facebook" />
 				</BridegroomSocial>
