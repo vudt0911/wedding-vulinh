@@ -76,10 +76,9 @@
 				</div>
 			</div>
 			<div class="mt-12 flex flex-col-reverse items-center justify-center gap-y-10 md:mt-24 md:flex-row md:gap-y-0 md:gap-x-10">
-				<img class="h-56 w-[28rem] rounded-lg lg:h-80" src="/images/wish.jpg" alt="Bride Image" loading="lazy" data-aos="fade-right" data-aos-duration="1000" />
+				<img class="h-[10rem] w-[30.338rem] rounded-lg lg:h-80" src="/images/wish.jpg" alt="Bride Image" loading="lazy" data-aos="fade-right" data-aos-duration="1000" />
 				<div class="space-y-8 text-center">
 					<p class="text-sm text-slate-600 dark:text-gray-200 md:text-base" data-aos="fade-down" data-aos-duration="1000">
-<!--            Thật vinh dự và hạnh phúc cho chúng tôi nếu {{ recipient }} sẵn lòng đến tham dự và chúc phúc cho cuộc hôn nhân của chúng tôi.-->
             Thật vinh dự và hạnh phúc cho chúng tôi nếu {{ route.query.name }} và người thương sẵn lòng đến tham dự và chúc phúc cho cuộc hôn nhân của chúng tôi.
 					</p>
 					<p class="text-sm text-slate-600 dark:text-gray-200 md:text-base" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Vì những lời cầu nguyện và phước lành của bạn, chúng tôi cảm ơn bạn.</p>

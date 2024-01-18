@@ -4,7 +4,7 @@
 			<div class="h-52 w-80 overflow-hidden rounded-3xl border-4 border-yellow-800 dark:border-yellow-500 md:h-80 md:w-[32rem]">
 				<Swiper class="h-full w-full" :modules="[SwiperAutoplay, SwiperEffectFade]" :slidesPerView="1" :loop="true" effect="fade" :autoplay="{ delay: 3000, disableOnInteraction: true }">
 					<SwiperSlide v-for="slide in 5" :key="slide">
-						<img class="h-full w-full overflow-hidden object-cover object-left-top" :src="`/images/about${slide}.jpg`" :alt="`Bride Image ${slide}`" loading="lazy" />
+						<img class="h-full w-full overflow-hidden object-cover object-center" :src="`/images/about${slide}.jpg`" :alt="`Bride Image ${slide}`" loading="lazy" />
 					</SwiperSlide>
 				</Swiper>
 			</div>
